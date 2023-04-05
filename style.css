@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+header{
+    padding: 20px;
+    display: flex;
+}
+h1{
+    margin-left: 10rem;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+}
+
+.left{
+    height: 50vh;
+    width: 47vw;
+    background-color: blanchedalmond;
+    margin-left: 5rem;
+    border-radius: 25px;
+}
+.right{
+    height: 50vh;
+    width: 47vw;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+}
+
+.left-button{
+    width: 47vw;
+    background-color: chartreuse;
+    margin-left: 5rem;
+}
