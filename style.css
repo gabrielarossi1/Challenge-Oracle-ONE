@@ -8,7 +8,7 @@ body{
     background-color: #F3F5FC;
 }
 main{
-    height: 95.5vh;
+    min-height: 95.5vh;
 }
 header{
     padding: 20px;
@@ -19,27 +19,23 @@ h1{
 }
 
 .container{
-    background-color: aqua;
     display: flex;
 }
 
 .left{
     height: 95vh;
     width: 47vw;
-    background-color: blanchedalmond;
     margin-left: 5rem;
     border-radius: 25px;
 }
 .right{
     height: 70vh;
     width: 40vw;
-    background-color: cornflowerblue;
     border-radius: 25px;
 }
 
 .left-button{
     width: 47vw;
-    background-color: chartreuse;
     margin-left: 5rem;
     position: relative;
     bottom: 10rem;
@@ -89,15 +85,25 @@ h1{
     margin-left: 5%;
     background-color: #D8DFE8;
 }
+#copiar{
+    margin-left: 33%;
+    width: 40%;
+    height: 4rem;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
 
 footer{
     display: flex;
-    background-color: red;
+    background-color: #0A3871;
+    color: #F3F5FC;
     text-align: center;
     height: 3rem;
 }
 footer >h4{
     margin-top: 15px;
+    margin-left: 3rem;
 }
 a > img{
     height: 2rem;

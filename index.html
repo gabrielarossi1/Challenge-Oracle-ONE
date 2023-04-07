@@ -17,27 +17,30 @@
     <main>
         <div class="container">
             <div class="left">
-                <input class="text-input" type="text" placeholder="Ingrese el texto aquí">
+                <input class="text-input" id="text-input" type="text" placeholder="Ingrese el texto aquí">
             </div>
             <div class="right">
-                <img class="imgDer"src="./images/muneco.svg" alt="Muñeco con lupa">
-                <h2 class="texto">Ningún mensaje fue encontrado</h2>
-                <textarea class="texto2" name="name" rows="8"  cols="80">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                <img class="imgDer" id="imgDer" src="./images/muneco.svg" alt="Muñeco con lupa">
+                <h2 class="texto" id="texto">Ningún mensaje fue encontrado</h2>
+                <textarea class="texto2" id="texto2" name="name" rows="8"  cols="80">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                <button id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
             </div>
         </div>
         <div class="left-button">
             <p>Solo letras minúsculas y sin acento</p>
-            <button type="button" class="btn-encriptar">Encriptar</button>
-            <button type="button" class="btn-desencriptar">Desencriptar</button>
+            <button type="button" class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
         </div>
         
     </main>
 
     <footer>
-        <h4>Todos los derechos reservados Rossi Gabriela</h4>
+        <h4>©Todos los derechos reservados Rossi Gabriela</h4>
         <a href="https://www.linkedin.com/in/gabriela-edith-rossi-468638230/"><img src="./images/linkedin.png" alt=""></a>
         <a href="https://github.com/gabrielarossi1"><img src="./images/github.png" alt=""></a>
     </footer>
     
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
