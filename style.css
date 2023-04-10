@@ -8,7 +8,7 @@ body{
     background-color: #F3F5FC;
 }
 main{
-    min-height: 95.5vh;
+    height: 79.3vh;
 }
 header{
     padding: 20px;
@@ -23,13 +23,13 @@ h1{
 }
 
 .left{
-    height: 95vh;
+    height: 85vh;
     width: 47vw;
     margin-left: 5rem;
     border-radius: 25px;
 }
 .right{
-    height: 70vh;
+    height: 30vh;
     width: 40vw;
     border-radius: 25px;
 }
@@ -52,7 +52,7 @@ h1{
 
 .imgDer{
     width: 30vw;
-    height: 70vh;
+    height: 65vh;
 }
 .texto{
     margin-left: 4rem;
@@ -110,4 +110,76 @@ a > img{
     margin-top: 7px;
     margin-left: 2rem;
     margin-right: -1rem;
+}
+
+.left-button > button{
+    margin: 0;
+    margin-top: 33px;
+    margin-left: 2rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    body{
+        width: 310px !important;
+    }
+    header{
+        display: flex;
+        /* flex-direction: column; */
+        margin: 0;
+    }
+    header > img{
+        height: 20px;
+    }
+    header > h1{
+        margin-left: 20px;
+        font-size:x-large;
+    }
+    main{
+        height:170vh;
+        width: 320px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        height: 15rem;
+        width: 20rem;
+        margin-left: 2.2rem
+    }
+    .left-button{
+        position: absolute;
+        top: 20rem;
+        left: 2px;
+        align-items: center;
+    }
+    .btn-encriptar, .btn-desencriptar{
+        width: 10rem;
+        margin-left: -20px;
+    }
+    .right{
+        height: 15rem;
+        width: 20rem;
+        position: absolute;
+        top: 33rem;
+    }
+    .right >img{
+        height: 20rem;
+        width: 20rem;
+    }
+    footer{
+        min-width: 320px;
+    }
+    footer > h4{
+        font-size: small;
+        margin-left: .2rem;
+    }
+    a > img{
+        height: 1.5rem;
+        margin: 1px ;
+        display: flex;
+        margin-top: 10px;
+        margin
+    }
 }
